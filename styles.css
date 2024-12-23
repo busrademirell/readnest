@@ -1,0 +1,16 @@
+.nav-img1 {
+  width: 270px;
+  height: 50px;
+}
+.nav-link1 {
+  justify-content: space-around;
+  display: grid;
+}
+.nav-link2 {
+  justify-content: space-around;
+  display: grid;
+}
+.nav-link3 {
+  justify-content: space-around;
+  display: grid;
+}
