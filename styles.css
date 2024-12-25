@@ -1,16 +1,25 @@
-.nav-img1 {
-  width: 270px;
-  height: 50px;
+.nav-img {
+  width: 150px;
+  height: 100px;
 }
-.nav-link1 {
-  justify-content: space-around;
-  display: grid;
+
+.container {
+  background-color: rgb(218, 22, 22);
 }
-.nav-link2 {
-  justify-content: space-around;
-  display: grid;
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
 }
-.nav-link3 {
-  justify-content: space-around;
-  display: grid;
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 100px;
+  text-decoration: none; /* Determination the line under the links */
+  color: black;
 }
