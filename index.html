@@ -4,31 +4,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product landing page</title>
-    <link href="styles.css" rel="stylesheet" />
+    <title>ReadNest</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav>
-        <img class="nav-img"
-            src="https://media.istockphoto.com/id/1186278616/tr/vekt%C3%B6r/kitap-simgesi-logo-vekt%C3%B6r-tasar%C4%B1m%C4%B1.jpg?s=170667a&w=0&k=20&c=EJ5oNuD92iWqQ31jiRyVSgvcA_X9REo0RB-3w55lspA=">
-        <div class="container">
-            <ul class="nav-links">
-                <li>
-                    <a href="Pricing.html">Pricing</a>
-                </li>
-                <li>
-                    <a href="How It Works.html">How It Works</a>
-                </li>
-                <li>
-                    <a href="Features.html">Features</a>
-                </li>
-            </ul>
+    <header id="header">
+        <a href="#hero">
+            <img id="header-img" src="book-logo1.png" alt="ReadNest logo">
+        </a>
+        <nav id="nav-bar">
+            <a class="nav-link" href="#features">Features</a>
+            <a class="nav-link" href="#books">Books</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+            <a class="nav-link" href="#how-it-works">How It Works</a>
+        </nav>
+    </header>
 
-        </div>
-    </nav>
+    <main>
+        <section id="hero">
+            <h1>Welcome to ReadNest</h1>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                <input id="email" type="email" name="email" placeholder="Enter your email" required>
+                <input id="submit" type="submit" value="Get Started">
+            </form>
+        </section>
 
+        <section id="features">
+            <div class="container">
+                <h2>Features</h2>
+                <div class="grid features">
+                    <article class="card">
+                        <img src="picks.jpg" alt="">
+                        <h3>Monthly Picks</h3>
+                        <p>Handpicked selections to keep your shelves fresh and inspiring.</p>
+                    </article>
+                    <article class="card">
+                        <img src="book-club.png" alt="">
+                        <h3>Book Club</h3>
+                        <p>Join our online discussions and connect with readers worldwide.</p>
+                    </article>
+                    <article class="card">
+                        <img src="lamp.png" alt="">
+                        <h3>Smart Recommendations</h3>
+                        <p>Discover titles tailored to your interests and reading pace.</p>
+                    </article>
+                    <article class="card">
+                        <img src="delivery.png" alt="">
+                        <h3>Free Delivery</h3>
+                        <p>Get your books delivered to your door at no extra cost.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
 
+        <section id="books">
+            <div class="container">
+                <h2>Books</h2>
+                <div class="grid books">
+                    <article class="card">
+                        <img src="midnight-book.jpg" alt="">
+                        <h3>The Midnight Library</h3>
+                        <p>A thought-provoking journey through the lives we might have lived.</p>
+                    </article>
+                    <article class="card">
+                        <img src="atomic-book.jpg" alt="">
+                        <h3>Atomic Habits</h3>
+                        <p>Tiny changes that deliver remarkable results in your life.</p>
+                    </article>
+                    <article class="card">
+                        <img src="nutuk.jpg" alt="">
+                        <h3>Nutuk (The Speech)</h3>
+                        <p>A historic speech by Mustafa Kemal Atatürk, recounting the Turkish nation's struggle from
+                            1919 to 1927.</p>
+                    </article>
+                    <article class="card">
+                        <img src="1984.jpg" alt="">
+                        <h3>1984</h3>
+                        <p>A dystopian classic about surveillance, freedom, and truth.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <div class="container">
+                <h2>Pricing</h2>
+                <div class="grid pricing">
+                    <article class="card">
+                        <h3>Standard</h3>
+                        <p>1 book / month</p>
+                        <p>$9.99</p>
+                    </article>
+                    <article class="card">
+                        <h3>Premium</h3>
+                        <p>3 books / month + club access</p>
+                        <p>$19.99</p>
+                    </article>
+                    <article class="card">
+                        <h3>Casual</h3>
+                        <p>Pay-as-you-go</p>
+                        <p>—</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works">
+            <h2>How It Works</h2>
+            <p>See how ReadNest curates, delivers, and grows your reading habit.</p>
+            <iframe id="video" src="https://www.youtube.com/embed/y3mjfh3oosU" title="ReadNest overview video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 ReadNest. All rights reserved.</p>
+        <p>
+            <a href="#features">Features</a> ·
+            <a href="#books">Books</a> ·
+            <a href="#pricing">Pricing</a> ·
+            <a href="#how-it-works">How It Works</a>
+        </p>
+    </footer>
 </body>
 
 </html>
