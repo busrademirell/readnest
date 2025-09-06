@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ReadNest</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header id="header">
         <a href="#hero">
-            <img id="header-img" src="book-logo1.png" alt="ReadNest logo">
+            <img id="header-img" src="open-book.png" alt="ReadNest logo">
         </a>
         <nav id="nav-bar">
             <a class="nav-link" href="#features">Features</a>
@@ -23,7 +26,9 @@
 
     <main>
         <section id="hero">
+            <img id="hero-img" src="hi.png" alt="">
             <h1>Welcome to ReadNest</h1>
+            <p>Discover books that shape your mind and soul, and join a community of curious readers worldwide.</p>
             <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
                 <input id="email" type="email" name="email" placeholder="Enter your email" required>
                 <input id="submit" type="submit" value="Get Started">
@@ -92,19 +97,23 @@
                 <h2>Pricing</h2>
                 <div class="grid pricing">
                     <article class="card">
-                        <h3>Standard</h3>
-                        <p>1 book / month</p>
-                        <p>$9.99</p>
+                        <img src="standart.png" alt="">
+                        <h3>Free (Standart)</h3>
+                        <p>3 book recommendations per week + basic reading goals</p>
+                        <p class="price">$0</p>
                     </article>
                     <article class="card">
+                        <img src="pre.png" alt="">
                         <h3>Premium</h3>
-                        <p>3 books / month + club access</p>
-                        <p>$19.99</p>
+                        <p>10 book recommendations per week + personal reading lists, community events, AI summaries</p>
+                        <p class="price">$10</p>
                     </article>
                     <article class="card">
-                        <h3>Casual</h3>
-                        <p>Pay-as-you-go</p>
-                        <p>—</p>
+                        <img src="casual.png" alt="">
+                        <h3>Exclusive</h3>
+                        <p>Unlimited book recommendations + early access to new releases, unlimited audiobooks, advanced
+                            reading stats.</p>
+                        <p class="price">$20</p>
                     </article>
                 </div>
             </div>
@@ -113,22 +122,22 @@
         <section id="how-it-works">
             <h2>How It Works</h2>
             <p>See how ReadNest curates, delivers, and grows your reading habit.</p>
-            <iframe id="video" src="https://www.youtube.com/embed/y3mjfh3oosU" title="ReadNest overview video"
+            <iframe id="video" src="https://www.youtube.com/embed/nnpdLbTSJSg" title="ReadNest overview video"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
             </iframe>
         </section>
     </main>
-
     <footer>
-        <p>© 2025 ReadNest. All rights reserved.</p>
         <p>
             <a href="#features">Features</a> ·
             <a href="#books">Books</a> ·
             <a href="#pricing">Pricing</a> ·
             <a href="#how-it-works">How It Works</a>
         </p>
+        <p>© 2025 ReadNest. All rights reserved.</p>
+
     </footer>
 </body>
 
