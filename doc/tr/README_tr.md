@@ -1,13 +1,13 @@
 <p align="center">
-  <a href="https://github.com/busrademirell/A-product-landing-page/blob/master/README.md">
+  <a href="https://github.com/busrademirell/readnest/blob/master/README.md">
     <img alt="downloads" src="https://img.shields.io/badge/English-En-blue" target="_blank" />
   </a>
-  <a href="https://github.com/busrademirell/A-product-landing-page/blob/master/doc/tr/Readme_tr.md">
+  <a href="https://github.com/busrademirell/readnest/blob/master/doc/tr/Readme_tr.md">
     <img alt="License: MIT" src="https://img.shields.io/badge/Turkish-Tr-red" target="_blank" />
   </a>
 </p>
 
-# Freecodecamp Build a Product Landing Page Project
+# Readnest Project
 
 ---
 
@@ -49,8 +49,4 @@ Bu proje, **ReadNest** kitap kulübü kullanıcılarına kulüp hakkında bilgi 
 
 - **flex-wrap →** Flex container içindeki öğelerin tek satıra sığmadığında bir sonraki satıra taşmasını kontrol eder.
 
-  ***
-
-## 📷 Screenshot
-
-![](.gif)
+- **!important →** CSS’te bir özelliğin önceliğini en yüksek seviyeye çıkararak diğer kuralları geçersiz kılar.

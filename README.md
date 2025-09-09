@@ -1,13 +1,13 @@
 <p align="center">
-  <a href="https://github.com/busrademirell/A-product-landing-page/blob/master/README.md">
+  <a href="https://github.com/busrademirell/readnest/blob/master/README.md">
     <img alt="downloads" src="https://img.shields.io/badge/English-En-blue" target="_blank" />
   </a>
-  <a href="https://github.com/busrademirell/A-product-landing-page/blob/master/doc/tr/Readme_tr.md">
+  <a href="https://github.com/busrademirell/readnest/blob/master/doc/tr/Readme_tr.md">
     <img alt="License: MIT" src="https://img.shields.io/badge/Turkish-Tr-red" target="_blank" />
   </a>
 </p>
 
-# Freecodecamp Build a Product Landing Page Project
+# Readnest Project
 
 ---
 
@@ -49,8 +49,9 @@ This project is a **product landing page** designed to provide **ReadNest** book
 
 - **flex-wrap →** Controls whether Flex container items wrap onto multiple lines when they exceed the container width.
 
----
+- override etmek araştır örnekle !
+  .card p.price {
+  color: var(--color-black);
+  }
 
-## 📷 Screenshot
-
-![](.gif)
+- **!important →** In CSS, it raises the priority of a property to the highest level, overriding other rules.
