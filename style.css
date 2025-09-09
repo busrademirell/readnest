@@ -19,6 +19,16 @@ body {
 p {
   color: #555555;
 }
+.card-img {
+  width: 100px;
+  height: 100px;
+}
+
+.grid-pricing {
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
 #header {
   display: flex;
   justify-content: space-between;
@@ -129,7 +139,12 @@ h2 {
   gap: 30px;
   justify-content: center;
 }
-
+.pricing-card {
+  width: 25%;
+  display: flex !important;
+  flex-direction: column;
+  text-align: center;
+}
 .card {
   background-color: var(--color-card-bg);
   padding: 30px 20px;
@@ -249,4 +264,12 @@ footer a:hover {
   #submit {
     width: 100%;
   }
+}
+
+.price {
+  flex: 1;
+}
+
+.explanation {
+  flex: 2;
 }
